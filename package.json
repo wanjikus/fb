@@ -1,0 +1,20 @@
+{
+  "name": "fb-puppeteer",
+  "version": "0.1.0",
+  "description": "Open Facebook with Puppeteer and save a screenshot (conversion from Selenium Python)",
+  "main": "open_fb.js",
+  "bin": {
+    "open-fb": "./open_fb.js"
+  },
+  "scripts": {
+    "start": "node open_fb.js",
+    "headless": "node open_fb.js --headless",
+    "login": "node open_fb.js --headless"
+  },
+  "dependencies": {
+    "puppeteer": "^20.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
